@@ -1,0 +1,22 @@
+/** @format */
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  text-align: center;
+  color: chocolate;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+}
+.play-div {
+  text-align: center;
+  font-size: 20px;
+}
+.contact-btn {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+}
