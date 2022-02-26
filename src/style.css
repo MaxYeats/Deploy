@@ -44,3 +44,25 @@ h4 {
   font-family: "Roboto", sans-serif;
   text-align: justify;
 }
+.icons {
+  padding: 20px;
+}
+
+.github-icon {
+  width: 25px;
+  height: 25px;
+}
+.instagram-icon {
+  width: 35px;
+  height: 35px;
+  opacity: 0.8;
+}
+.twitter-icon {
+  width: 25px;
+  height: 25px;
+}
+.linkedin-icon {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+}
