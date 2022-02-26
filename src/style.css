@@ -1,0 +1,46 @@
+/** @format */
+
+h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Fredericka the Great", cursive;
+  font-size: 60px;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+h4 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+.container {
+  padding: 40px 60px 40px 10px;
+}
+.row {
+  padding: 20px;
+}
+.landing-description,
+.weather-app-description {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+.scrn-odyssey5,
+.scrn-weather-app {
+  border-radius: 2.5%;
+  max-width: 300px;
+  max-height: 250px;
+}
+.update {
+  padding-left: 140px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
