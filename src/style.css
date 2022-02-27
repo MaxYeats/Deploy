@@ -20,7 +20,7 @@ h4 {
   font-weight: 500;
 }
 .container {
-  padding: 40px 60px 40px 10px;
+  padding: 40px 60px 0px 10px;
 }
 .row {
   padding: 20px;
@@ -39,10 +39,26 @@ h4 {
   max-height: 250px;
 }
 .update {
-  padding-left: 140px;
+  padding: 20px;
   color: #000;
   font-family: "Roboto", sans-serif;
+
+  text-shadow: 2px;
+  font-size: 20px;
   text-align: justify;
+}
+.thank-you {
+  padding: 20px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+
+  text-shadow: 2px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.construction-icon {
+  text-align: center;
 }
 .icons {
   padding: 20px;
@@ -65,4 +81,19 @@ h4 {
   width: 30px;
   height: 30px;
   opacity: 0.8;
+}
+
+.about,
+.about-me {
+  padding: 20px 20px 0px 10px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+body {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
 }
