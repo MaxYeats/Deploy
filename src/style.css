@@ -100,6 +100,7 @@ body {
 }
 section {
   border: 1px solid rgba(0, 0, 0, 0.6);
-  margin: 20px;
+  border-radius: 2px;
+  margin: 40px;
   padding: 20px;
 }
