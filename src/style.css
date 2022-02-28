@@ -97,6 +97,8 @@ body {
     rgb(228, 247, 255) 21.9%,
     rgb(255, 216, 194) 92.2%
   );
+}
+section {
   border: 1px solid rgba(0, 0, 0, 0.6);
   margin: 20px;
   padding: 20px;
