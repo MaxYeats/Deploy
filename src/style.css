@@ -93,7 +93,7 @@ body {
 section {
   padding-top: 60px;
 }
-.bg-gradient {
+.bg-custom {
   background: linear-gradient(
     111.5deg,
     rgb(228, 247, 255) 21.9%,
