@@ -91,3 +91,6 @@ body {
     rgb(255, 216, 194) 92.2%
   );
 }
+section {
+  padding-top: 20px;
+}
