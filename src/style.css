@@ -38,7 +38,7 @@ h4 {
   font-family: "Roboto", sans-serif;
 
   text-shadow: 2px;
-  font-size: 25px;
+  font-size: 18px;
 }
 .thank-you {
   padding: 20px;
@@ -92,4 +92,11 @@ body {
 }
 section {
   padding-top: 60px;
+}
+.bg-gradient {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
 }
