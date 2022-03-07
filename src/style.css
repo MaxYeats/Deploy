@@ -40,7 +40,8 @@ h4 {
   text-shadow: 2px;
   font-size: 18px;
 }
-.thank-you {
+.thank-you,
+.email {
   padding: 20px;
   color: #000;
   font-family: "Roboto", sans-serif;
@@ -81,15 +82,22 @@ h4 {
   text-align: justify;
 }
 body {
-  background: linear-gradient(
-    111.5deg,
-    rgb(228, 247, 255) 21.9%,
-    rgb(255, 216, 194) 92.2%
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(226, 240, 254) 0%,
+    rgb(255, 247, 228) 90%
   );
 }
 section {
   padding-top: 60px;
 }
 .bg-custom {
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%) !important;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(226, 240, 254) 0%,
+    rgb(255, 247, 228) 90%
+  );
+}
+.section-about {
+  padding: 60px;
 }
