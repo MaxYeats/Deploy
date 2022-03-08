@@ -66,9 +66,10 @@ h4 {
   height: 25px;
 }
 .instagram-icon {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 50px;
   opacity: 0.8;
+  padding-bottom: 15px;
 }
 .twitter-icon {
   width: 25px;
@@ -109,8 +110,8 @@ section {
 }
 
 .profile-pic {
-  max-width: 150px;
-  max-height: 180px;
+  max-width: 100px;
+  max-height: 120px;
   display: block;
   margin: 10px auto;
 }
