@@ -53,32 +53,16 @@ h4 {
   font-family: "Roboto", sans-serif;
 
   text-shadow: 2px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
+.github-icon,
+.instagram-icon,
+.twitter-icon,
+.linkedin-icon,
 .construction-icon {
-  text-align: center;
-}
-
-.github-icon {
-  width: 25px;
-  height: 25px;
-}
-.instagram-icon {
-  width: 40px;
-  height: 50px;
-  opacity: 0.8;
-  padding-bottom: 15px;
-}
-.twitter-icon {
-  width: 25px;
-  height: 25px;
-}
-.linkedin-icon {
-  width: 30px;
-  height: 30px;
-  opacity: 0.8;
+  color: #000;
 }
 
 .about,
@@ -116,7 +100,8 @@ section {
   margin: 10px auto;
 }
 
-.navbar {
-  font-size: 20px;
+.navbar,
+.navbar-brand {
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
