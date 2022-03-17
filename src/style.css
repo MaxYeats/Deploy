@@ -13,40 +13,39 @@
 
 h1 {
   text-align: center;
-  color: rgba(0, 0, 0, 0.6);
-  font-family: "Fredericka the Great", cursive;
-  font-size: 60px;
-  padding: 20px;
+  color: #000;
+  font-family: var(--secondary-font);
+  font-size: 50px;
+  padding: 40px 20px 0px 20px;
 }
-#home {
-  padding-top: 60px;
-}
+
 h2 {
   text-align: center;
-  color: rgba(0, 0, 0, 0.6);
+  color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
 }
 .about-contact-h2 {
   margin-top: 20px;
 }
+
 h4 {
   color: #000;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-weight: 500;
+  font-weight: 800;
 }
 .container {
   padding: 0;
 }
 .row {
-  padding: 25px 20px;
+  padding: 20px;
 }
-.landing-description,
-.weather-app-description {
+.app-description {
   color: #000;
   font-family: "Roboto", sans-serif;
   text-align: justify;
+  font-weight: 400;
 }
 
 .update {
@@ -71,8 +70,7 @@ h4 {
 .github-icon,
 .instagram-icon,
 .twitter-icon,
-.linkedin-icon,
-.construction-icon {
+.linkedin-icon {
   color: #000;
 }
 
@@ -83,35 +81,30 @@ h4 {
   font-family: "Roboto", sans-serif;
   text-align: justify;
 }
-body {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(226, 240, 254) 0%,
-    rgb(255, 247, 228) 90%
-  );
-}
+
 section {
   padding-top: 60px;
 }
-.bg-custom {
-  background: var(--background-color);
-}
+
 .section-about {
   padding: 60px 100px;
 }
 
 .profile-pic {
-  padding-top: 10px;
+  padding: 5px;
   max-width: 100px;
   max-height: 120px;
   display: block;
   margin: 10px auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar,
 .navbar-brand {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  color: #000;
 }
 
 @media (max-width: 376px) {
@@ -124,4 +117,79 @@ section {
   .section-about {
     padding: 60px;
   }
+  .col-sm-6 {
+    padding: 10px;
+  }
+  .app-screenshot {
+    max-width: 250px;
+  }
+  .app-description {
+    max-width: 300px;
+    font-size: 12px;
+  }
+}
+
+.personal-logo {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.hero-descript {
+  padding: 0 10px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+
+  font-weight: 900;
+}
+.my-name {
+  font-family: var(--primary-font);
+  font-size: 60px;
+  padding: 20px 10px 0 10px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 600%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.app-screenshot {
+  max-height: 190px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.app-screenshot:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.3s ease-in;
+  border-radius: 2%;
+  padding: 10px;
+}
+.border-project-left {
+  border: 2px solid #000;
+  border-radius: 6px;
+  box-shadow: 0px 10px 9px 2px rgba(0, 0, 0, 0.4);
+  padding: 18px;
+}
+
+.border-project-right {
+  border: 2px solid #000;
+  border-radius: 6px;
+  box-shadow: 6px 10px 9px 2px rgba(0, 0, 0, 0.4);
+  padding: 18px;
 }
