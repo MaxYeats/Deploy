@@ -1,5 +1,16 @@
 /** @format */
 
+:root {
+  --branding-color: rgb(76, 0, 39);
+  --background-color: radial-gradient(
+    circle at 10% 20%,
+    rgb(226, 240, 254) 0%,
+    rgb(255, 247, 228) 90%
+  );
+  --primary-font: "Fredericka the Great", cursive;
+  --secondary-font: "Roboto", sans-serif;
+}
+
 h1 {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
@@ -26,7 +37,7 @@ h4 {
   font-weight: 500;
 }
 .container {
-  padding: 10px;
+  padding: 0;
 }
 .row {
   padding: 25px 20px;
@@ -83,11 +94,7 @@ section {
   padding-top: 60px;
 }
 .bg-custom {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(226, 240, 254) 0%,
-    rgb(255, 247, 228) 90%
-  );
+  background: var(--background-color);
 }
 .section-about {
   padding: 60px 100px;
