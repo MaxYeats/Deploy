@@ -25,9 +25,6 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
 }
-.about-contact-h2 {
-  margin-top: 20px;
-}
 
 h4 {
   color: #000;
@@ -48,22 +45,11 @@ h4 {
   font-weight: 400;
 }
 
-.thank-you,
-.email {
-  padding: 20px;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-
-  text-shadow: 2px;
-  font-size: 18px;
-  text-align: center;
-}
-
 .github-icon,
 .instagram-icon,
 .twitter-icon,
 .linkedin-icon {
-  color: #000;
+  color: #fff;
 }
 
 .about,
@@ -74,12 +60,8 @@ h4 {
   text-align: justify;
 }
 
-section {
-  padding-top: 60px;
-}
-
 .section-about {
-  padding: 60px 100px;
+  padding: 150px 100px;
 }
 
 .profile-pic {
@@ -92,40 +74,40 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar,
-.navbar-brand {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+.about-h2 {
+  padding: 10px;
+}
+.contact-h2,
+.misc-h2 {
+  padding-top: 150px;
+}
+
+.thank-you,
+.contact-div,
+.email {
+  padding: 20px;
   color: #000;
+  font-family: "Roboto", sans-serif;
+
+  text-shadow: 2px;
+  font-size: 18px;
+  text-align: center;
+}
+.email a:hover {
+  color: #d8e7fa;
 }
 
-@media (max-width: 376px) {
-  .my-name {
-    font-size: 45px;
-  }
-  .coding-projects {
-    font-size: 40px;
-  }
-  .section-about {
-    padding: 60px;
-  }
-  .col-sm-6 {
-    padding: 10px;
-  }
-  .app-screenshot {
-    max-width: 250px;
-  }
-  .app-description {
-    max-width: 300px;
-    font-size: 12px;
-  }
+.title-h1 {
+  padding-top: 150px;
 }
 
-.personal-logo {
-  max-width: 30px;
-  max-height: 30px;
+.my-name {
+  font-family: var(--primary-font);
+  font-size: 60px;
+  padding: 20px 10px 0 10px;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
-
 .hero-descript {
   padding: 0 10px 20px;
   color: rgba(0, 0, 0, 0.6);
@@ -134,13 +116,7 @@ section {
 
   font-weight: 900;
 }
-.my-name {
-  font-family: var(--primary-font);
-  font-size: 60px;
-  padding: 20px 10px 0 10px;
-  animation-duration: 2s;
-  animation-name: slidein;
-}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -184,4 +160,166 @@ section {
   border-radius: 6px;
   box-shadow: 6px 10px 9px 2px rgba(0, 0, 0, 0.4);
   padding: 18px;
+}
+
+.container-fluid {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #fff;
+}
+body,
+.background {
+  background: linear-gradient(132deg, #dbbfc5, #d8e7fa, #b4b4b4);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  position: relative;
+  width: 100%;
+  overflow: visible;
+  padding: 0;
+  margin: 0px;
+}
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #99a5d6;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #fff;
+}
+.cube:nth-child(2) {
+  animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+.cube:nth-child(3) {
+  animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+.cube:nth-child(4) {
+  animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cube:nth-child(6) {
+  animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+nav {
+  color: #fff;
+  float: right;
+  margin: 30px 90px;
+  font-family: var(--secondary-font);
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: 0.3s;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #111d5e;
+  transition: 0.5;
+  font-size: 15px;
+  margin-left: 16px;
+}
+nav ul li:hover a {
+  text-decoration: none;
+  color: #0c1d4b;
+}
+nav ul li:hover {
+  height: 65px;
+  padding-top: 20px;
+  margin-top: -20px;
+  background: #efeef5;
+  text-decoration: none;
+}
+.active {
+  font-weight: 600;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: #efeef5;
+  margin: 30px 23px;
+  float: left;
+  transform: rotate(-35deg);
+}
+.logo span {
+  color: #0c1d4b;
+  font-size: 2em;
+  line-height: 1.4;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 376px) {
+  .my-name {
+    font-size: 45px;
+  }
+  .coding-projects {
+    font-size: 40px;
+  }
+  .section-about {
+    padding: 60px;
+  }
+  .col-sm-6 {
+    padding: 10px;
+  }
+  .app-screenshot {
+    max-width: 250px;
+  }
+  .app-description {
+    max-width: 300px;
+    font-size: 12px;
+  }
+  .logo {
+    width: 25px;
+    height: 25px;
+  }
+  .logo span {
+    font-size: 1em;
+  }
+  nav {
+    text-align: justify;
+    margin: 20px;
+  }
 }
