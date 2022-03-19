@@ -327,8 +327,15 @@ nav ul li:hover {
 }
 
 @media (max-width: 376px) {
+  .title-h1 {
+    font-size: 35px;
+  }
   .my-name {
     font-size: 45px;
+    animation-name: none;
+  }
+  .hero-descript {
+    font-size: 15px;
   }
   .coding-projects {
     font-size: 40px;
