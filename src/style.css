@@ -204,7 +204,7 @@ h4 {
 }
 body,
 .background {
-  background: linear-gradient(132deg, #4b101a, #0f253d, #7f7d94);
+  background: linear-gradient(132deg, #691431, #081d46, #85189b);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
   position: relative;
@@ -326,7 +326,7 @@ nav ul li:hover {
   font-weight: bold;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 415px) {
   .title-h1 {
     font-size: 35px;
   }
@@ -362,6 +362,6 @@ nav ul li:hover {
   }
   nav {
     text-align: justify;
-    margin: 20px;
+    margin: 10px;
   }
 }
