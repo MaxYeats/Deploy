@@ -352,6 +352,7 @@ nav ul li:hover {
   .app-description {
     max-width: 300px;
     font-size: 12px;
+    margin: 0 50px;
   }
   .logo {
     width: 25px;
